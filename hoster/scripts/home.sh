@@ -1,1 +1,0 @@
-echo "$( getent passwd $1 | cut -d: -f6 )"
